@@ -40,6 +40,8 @@ jobs:
           
       # This should lint the current pod
       - name: Lint Pod
+        env:
+          COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
         run: pod spec lint --verbose --allow-warnings
       
       # This should publish the pod with the latest version
