@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jSpwB3I2wlGRjQovDkichVyO+Ac=
+		U00ztB3aLuLoM95V/4QJRLa/Zk0=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		jSpwB3I2wlGRjQovDkichVyO+Ac=
+		U00ztB3aLuLoM95V/4QJRLa/Zk0=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jDxirkVnstjmP+Jdph7JCCt8dI8=
+		Z5PsUylYhnvkK4/lipGMPPCC8k0=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		jDxirkVnstjmP+Jdph7JCCt8dI8=
+		Z5PsUylYhnvkK4/lipGMPPCC8k0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -107,7 +107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0Fk14WyAaFGqvogyMYQ8N6t2SDoxXcO7sOtYAXoRZRM=
+			tcafQcHsykv6AaJcL5dNQKxebpKE9X+R0Nz1y5obY90=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/arm64.swiftdoc</key>
@@ -128,7 +128,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0Fk14WyAaFGqvogyMYQ8N6t2SDoxXcO7sOtYAXoRZRM=
+			tcafQcHsykv6AaJcL5dNQKxebpKE9X+R0Nz1y5obY90=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -149,7 +149,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RRV+GTBEXCZQ4EEl0y1XV5wBmMe3CgH59Jw3mVVE+YE=
+			BGvYHhuDigoqFDyY0hD/oDZidxu63ZFSS5ADx93ohhc=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -170,7 +170,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RRV+GTBEXCZQ4EEl0y1XV5wBmMe3CgH59Jw3mVVE+YE=
+			BGvYHhuDigoqFDyY0hD/oDZidxu63ZFSS5ADx93ohhc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
