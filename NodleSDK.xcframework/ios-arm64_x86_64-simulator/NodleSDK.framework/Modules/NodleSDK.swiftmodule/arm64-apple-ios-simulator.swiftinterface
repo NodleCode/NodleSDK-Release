@@ -1,0 +1,91 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name NodleSDK
+import CommonCrypto
+import CoreBluetooth
+import CoreFoundation
+import CoreLocation
+import CryptoKit
+import Foundation
+import Network
+@_exported import NodleSDK
+import SQLite
+import Swift
+import SwiftCBOR
+import SwiftProtobuf
+public enum DebugCategory : Swift.String {
+  case APP
+  case BLE
+  case CL
+  case INFO
+  case TESTS
+  case TIMER
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public func print(_ objects: Any...)
+public func print(_ object: Any)
+public func debugLog(log: Swift.String?, category: NodleSDK.DebugCategory = .INFO)
+public func errorLog(log: Swift.String?, category: NodleSDK.DebugCategory = .INFO)
+public func infoLog(log: Swift.String?, category: NodleSDK.DebugCategory = .INFO)
+@_hasMissingDesignatedInitializers public class NodleDispatcher {
+  public func showConfig() -> Swift.String
+  public func config(path: Swift.String)
+  public func config<T>(key: Swift.String, value: T)
+  public func isStarted() -> Swift.Bool
+  public func isScanning() -> Swift.Bool
+  public func stop()
+  public func clear()
+  public func getVersion() -> Swift.String
+  public func start(devKey: Swift.String, tags: Swift.String...)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers open class AbstractSecurityParameter {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers open class AbstractSecurityResult {
+  @objc deinit
+}
+public let HTTP_OK: Swift.Int
+public let HTTP_ACCEPTED: Swift.Int
+@_hasMissingDesignatedInitializers public class Nodle : NodleSDK.NodleDispatcher {
+  public static let sharedInstance: NodleSDK.Nodle
+  @objc deinit
+}
+extension Array where Element : Swift.Hashable {
+  public func uniqued() -> [Element]
+}
+extension Sequence where Self.Element : Swift.Hashable {
+  public func contains(_ elements: [Self.Element]) -> Swift.Bool
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class BluetoothManager : ObjectiveC.NSObject {
+  public static let sharedInstance: NodleSDK.BluetoothManager
+  public var isScanning: Swift.Bool {
+    get
+  }
+  public var completion: ((CoreBluetooth.CBPeripheral?, [Swift.String : Any], Foundation.NSNumber) -> Swift.Void)?
+  public var scanned: [(CoreBluetooth.CBPeripheral?, [Swift.String : Any], Foundation.NSNumber)]
+  public func configure()
+  public var checkPermissions: Swift.Bool {
+    get
+  }
+  public func start()
+  public func stopManager()
+  public func stop()
+  @objc deinit
+}
+extension BluetoothManager : CoreBluetooth.CBCentralManagerDelegate {
+  public func startScanning()
+  public func startBackgroundScanning()
+  public func stopScanning()
+  public func stopBackgroundScanning()
+  public func getScanRecords(completion: @escaping (CoreBluetooth.CBPeripheral?, [Swift.String : Any], Foundation.NSNumber) -> Swift.Void)
+  @objc dynamic public func centralManagerDidUpdateState(_ central: CoreBluetooth.CBCentralManager)
+  @objc dynamic public func centralManager(_ central: CoreBluetooth.CBCentralManager, didDiscover peripheral: CoreBluetooth.CBPeripheral, advertisementData: [Swift.String : Any], rssi RSSI: Foundation.NSNumber)
+}
+extension NodleSDK.DebugCategory : Swift.Equatable {}
+extension NodleSDK.DebugCategory : Swift.Hashable {}
+extension NodleSDK.DebugCategory : Swift.RawRepresentable {}
