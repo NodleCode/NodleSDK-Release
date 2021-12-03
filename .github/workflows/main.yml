@@ -46,5 +46,7 @@ jobs:
       
       # This should publish the pod with the latest version
       - name: Publish Trunk
+        env:
+          COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
         run: |
-          echo Will publish after this
+          pod trunk push NodleSDK.podspec --allow-warnings
