@@ -13,6 +13,7 @@ import SQLite
 import Swift
 import SwiftCBOR
 import SwiftProtobuf
+import UIKit
 @_hasMissingDesignatedInitializers public class NodleDispatcher {
   public func showConfig() -> Swift.String
   public func config(path: Swift.String)
@@ -53,22 +54,6 @@ extension Array where Element : Swift.Hashable {
 extension Sequence where Self.Element : Swift.Hashable {
   public func contains(_ elements: [Self.Element]) -> Swift.Bool
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class BluetoothManager : ObjectiveC.NSObject {
-  public static let sharedInstance: NodleSDK.BluetoothManager
-  public var isScanning: Swift.Bool {
-    get
-  }
-  public var isPoweredOn: Swift.Bool
-  public var completion: ((CoreBluetooth.CBPeripheral?, [Swift.String : Any], Foundation.NSNumber) -> Swift.Void)?
-  public var scanned: [(CoreBluetooth.CBPeripheral?, [Swift.String : Any], Foundation.NSNumber)]
-  public func configure()
-  public var checkPermissions: Swift.Bool {
-    get
-  }
-  public func start()
-  public func stop()
-  @objc deinit
-}
 public enum SdkMetricType : Swift.Int {
   case BleScanCount
   case DtnTxCount
@@ -81,15 +66,6 @@ public enum SdkMetricType : Swift.Int {
   public var rawValue: Swift.Int {
     get
   }
-}
-extension BluetoothManager : CoreBluetooth.CBCentralManagerDelegate {
-  public func startScanning()
-  public func startBackgroundScanning()
-  public func stopScanning()
-  public func stopBackgroundScanning()
-  public func getScanRecords(completion: @escaping (CoreBluetooth.CBPeripheral?, [Swift.String : Any], Foundation.NSNumber) -> Swift.Void)
-  @objc dynamic public func centralManagerDidUpdateState(_ central: CoreBluetooth.CBCentralManager)
-  @objc dynamic public func centralManager(_ central: CoreBluetooth.CBCentralManager, didDiscover peripheral: CoreBluetooth.CBPeripheral, advertisementData: [Swift.String : Any], rssi RSSI: Foundation.NSNumber)
 }
 extension NodleSDK.SdkMetricType : Swift.Equatable {}
 extension NodleSDK.SdkMetricType : Swift.Hashable {}

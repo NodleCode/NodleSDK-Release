@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		3iZkPv1tBfc9Iu+iymOooNgvq7Q=
+		CIeGrXrs1UbeGQTpOmpvsPSUxcA=
 		</data>
 		<key>Resources/sdk_default_config.json</key>
 		<data>
@@ -19,7 +19,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VWodk5/abxjLk4i+3+VPQ+rlIvEzA9FY2+LNgji2maM=
+			QCHFX2hTk2v1JWspd8CYqkGi8qqAWTml7N22jVZhjx8=
 			</data>
 		</dict>
 		<key>Headers/NodleSDK.h</key>
@@ -33,42 +33,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OEz8t2cuVBEtYHkE3QY7vo0nsAiV8B8L5wt4HEuBG4g=
+			WcOPkDOFo+gsBU6Ex4y3hxPA0zqGZYk3nb8ROg3Z9bM=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LdRQKxY30+N9Nifcb3LsPndvvoU+DyWwc5X5gsKd4TI=
+			c7m1c8DMTuZAV3a6QMp0We6hal8tPY269/6YlrdpxKo=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sXxDG9i/HBFShgjqAHc3s9tdKNCTFabgz9f3KaA9ohQ=
+			+4Ttg1tMnjoucu9h4iy5k9PZYR1ffBn+IdEtWmV/aXI=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OEz8t2cuVBEtYHkE3QY7vo0nsAiV8B8L5wt4HEuBG4g=
+			WcOPkDOFo+gsBU6Ex4y3hxPA0zqGZYk3nb8ROg3Z9bM=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LdRQKxY30+N9Nifcb3LsPndvvoU+DyWwc5X5gsKd4TI=
+			c7m1c8DMTuZAV3a6QMp0We6hal8tPY269/6YlrdpxKo=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sXxDG9i/HBFShgjqAHc3s9tdKNCTFabgz9f3KaA9ohQ=
+			+4Ttg1tMnjoucu9h4iy5k9PZYR1ffBn+IdEtWmV/aXI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -82,7 +82,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YvjizV0SyaXscLIQUP3CZoN7Fe9QNf9hvDr6qp5Jk5U=
+			o4Cut4YiVvJJWJ+993XFt4/bI3LAOEpYrLtKm2DIr+M=
 			</data>
 		</dict>
 		<key>Resources/sdk_default_config.json</key>

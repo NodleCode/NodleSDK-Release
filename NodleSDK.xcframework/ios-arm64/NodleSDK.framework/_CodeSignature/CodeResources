@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/NodleSDK-Swift.h</key>
 		<data>
-		0NAzttommQtkbuJ0sXwe9JLFTGc=
+		LsNg3orX7HANWb6jLZIjUnP7SNo=
 		</data>
 		<key>Headers/NodleSDK.h</key>
 		<data>
@@ -14,31 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		OGILSc/bbu6mUklaKUSQ0Gl856w=
+		hktsrX5Zo1fAQejDWIMvXYeEcvU=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		bmYlQ2tM+sMNTIcimfmuYt96nO8=
+		9Rsx0dAL+g7pj3pZFbB6f/RxWdw=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		VuAyxhu38bV6EmJ3Nf3beLOeyKg=
+		WhN6G15Mb5emDn8qu4YfCtpxQGI=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		rm7W4H5jzRrVT92ATbtfDZaI+2A=
+		exjMmtXW+TAPQSj4BMhgwBFxmZQ=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		bmYlQ2tM+sMNTIcimfmuYt96nO8=
+		9Rsx0dAL+g7pj3pZFbB6f/RxWdw=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		VuAyxhu38bV6EmJ3Nf3beLOeyKg=
+		WhN6G15Mb5emDn8qu4YfCtpxQGI=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		rm7W4H5jzRrVT92ATbtfDZaI+2A=
+		exjMmtXW+TAPQSj4BMhgwBFxmZQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -55,7 +55,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VWodk5/abxjLk4i+3+VPQ+rlIvEzA9FY2+LNgji2maM=
+			QCHFX2hTk2v1JWspd8CYqkGi8qqAWTml7N22jVZhjx8=
 			</data>
 		</dict>
 		<key>Headers/NodleSDK.h</key>
@@ -69,42 +69,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oU3AQJbU1UXu1KVd8TK0QzLsLm/3JnEexAHFTjfyAQk=
+			cyM1r6bU10pdrv2YErVRLtFxYly3ojJU0nxjjAKwGmU=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1jVQu+5tkhDYZoCYywAOkzdgj5juC0pTnMr/jFwwFug=
+			gajN5ooWrF42nbT315ERVcOKyBelHUXFkrZ2rDk+JiM=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yc5YYGICekIiNxTy5maowCUBUdoHrwQOCHgghA0ev9w=
+			C7gD4+0CvyZlS86Pkc3saqxcEfi/kmSpkFqidhRjxaQ=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oU3AQJbU1UXu1KVd8TK0QzLsLm/3JnEexAHFTjfyAQk=
+			cyM1r6bU10pdrv2YErVRLtFxYly3ojJU0nxjjAKwGmU=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1jVQu+5tkhDYZoCYywAOkzdgj5juC0pTnMr/jFwwFug=
+			gajN5ooWrF42nbT315ERVcOKyBelHUXFkrZ2rDk+JiM=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yc5YYGICekIiNxTy5maowCUBUdoHrwQOCHgghA0ev9w=
+			C7gD4+0CvyZlS86Pkc3saqxcEfi/kmSpkFqidhRjxaQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
