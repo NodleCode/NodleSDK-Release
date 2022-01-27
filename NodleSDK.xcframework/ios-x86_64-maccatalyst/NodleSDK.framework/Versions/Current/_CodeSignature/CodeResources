@@ -33,42 +33,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WcOPkDOFo+gsBU6Ex4y3hxPA0zqGZYk3nb8ROg3Z9bM=
+			4dW9sYYv3YDvtDsLGrGbUEbw13H+gXQhxba7zaNqh0w=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c7m1c8DMTuZAV3a6QMp0We6hal8tPY269/6YlrdpxKo=
+			oybJEd5RAzTe4cTZFzDOFMv2ggz6d/sSrciapVDo7dg=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+4Ttg1tMnjoucu9h4iy5k9PZYR1ffBn+IdEtWmV/aXI=
+			PIQILqQPyMzdd9g+kin74WeKPYXwOxKGk5eN0jqwvo4=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WcOPkDOFo+gsBU6Ex4y3hxPA0zqGZYk3nb8ROg3Z9bM=
+			4dW9sYYv3YDvtDsLGrGbUEbw13H+gXQhxba7zaNqh0w=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c7m1c8DMTuZAV3a6QMp0We6hal8tPY269/6YlrdpxKo=
+			oybJEd5RAzTe4cTZFzDOFMv2ggz6d/sSrciapVDo7dg=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+4Ttg1tMnjoucu9h4iy5k9PZYR1ffBn+IdEtWmV/aXI=
+			PIQILqQPyMzdd9g+kin74WeKPYXwOxKGk5eN0jqwvo4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

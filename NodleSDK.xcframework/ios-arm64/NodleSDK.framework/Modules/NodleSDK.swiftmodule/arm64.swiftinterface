@@ -24,7 +24,7 @@ import UIKit
   public func clear()
   public func getMetric(which: NodleSDK.SdkMetricType) -> Swift.Int64
   public func getVersion() -> Swift.String
-  public func getEvents(upstream: @escaping (NodleSDK.NodleBluetoothRecord) -> Swift.Void)
+  public func getEvents(upstream: @escaping (NodleSDK.NodleEvent) -> Swift.Void)
   public func start(devKey: Swift.String, tags: Swift.String...)
   @objc deinit
 }
@@ -34,15 +34,33 @@ import UIKit
 @_hasMissingDesignatedInitializers open class AbstractSecurityResult {
   @objc deinit
 }
+@_hasMissingDesignatedInitializers public class NodleBluetoothEvent {
+  public var type: NodleSDK.NodleEventType
+  @objc deinit
+}
 public let HTTP_OK: Swift.Int
 public let HTTP_ACCEPTED: Swift.Int
 @_hasMissingDesignatedInitializers public class NodleBluetoothRecord {
+  public var type: NodleSDK.NodleEventType
   public var device: Swift.String
   public var rssi: Swift.Int
   public var bytes: [Swift.UInt8]?
   public var manufacturerSpecificData: [Swift.Int : [Swift.UInt8]]?
   public var serviceUuids: Swift.Array<CoreBluetooth.CBUUID>?
   @objc deinit
+}
+public protocol NodleEvent {
+  var type: NodleSDK.NodleEventType { get }
+}
+public enum NodleEventType : Swift.Int {
+  case BlePayloadEvent
+  case BleStartSearching
+  case BleStopSearching
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
 }
 @_hasMissingDesignatedInitializers public class Nodle : NodleSDK.NodleDispatcher {
   public static let sharedInstance: NodleSDK.Nodle
@@ -67,6 +85,11 @@ public enum SdkMetricType : Swift.Int {
     get
   }
 }
+extension NodleSDK.NodleBluetoothEvent : NodleSDK.NodleEvent {}
+extension NodleSDK.NodleBluetoothRecord : NodleSDK.NodleEvent {}
+extension NodleSDK.NodleEventType : Swift.Equatable {}
+extension NodleSDK.NodleEventType : Swift.Hashable {}
+extension NodleSDK.NodleEventType : Swift.RawRepresentable {}
 extension NodleSDK.SdkMetricType : Swift.Equatable {}
 extension NodleSDK.SdkMetricType : Swift.Hashable {}
 extension NodleSDK.SdkMetricType : Swift.RawRepresentable {}
