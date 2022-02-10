@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Mgr19TL39b6lvG2LDB87eZCWaTI=
+		bBp5ku2bsVcDuR2ZyQn26UzfEQc=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		lODwJvUFnXM8gDntgaXqCVWMi+0=
+		/ggAzozphk2FJQvIia+NlFd4xJo=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		lODwJvUFnXM8gDntgaXqCVWMi+0=
+		/ggAzozphk2FJQvIia+NlFd4xJo=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		b3jMtDZlOFn3J8ze16KJB5DNzdI=
+		nTHekVeZnzS0sxwy4797xN+6LKE=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		b3jMtDZlOFn3J8ze16KJB5DNzdI=
+		nTHekVeZnzS0sxwy4797xN+6LKE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -107,7 +107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k4NQBIE9ubnVVptyt9mdummtinlJgrJ2Kvdrd50rgVQ=
+			kNQwOptAjK1TdgIms1lyab/xmDpxWisbQAjGjmFORQk=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/arm64.swiftdoc</key>
@@ -128,7 +128,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k4NQBIE9ubnVVptyt9mdummtinlJgrJ2Kvdrd50rgVQ=
+			kNQwOptAjK1TdgIms1lyab/xmDpxWisbQAjGjmFORQk=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -149,7 +149,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/yjMZRSHFIBrLH5mRZc3hXCuwI6o3rdO4iuq0lWVSPk=
+			Zbv56ajbLCz2UNafz6t/vt+SG8PljqI7ujZCi+mZsZw=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -170,7 +170,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/yjMZRSHFIBrLH5mRZc3hXCuwI6o3rdO4iuq0lWVSPk=
+			Zbv56ajbLCz2UNafz6t/vt+SG8PljqI7ujZCi+mZsZw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
