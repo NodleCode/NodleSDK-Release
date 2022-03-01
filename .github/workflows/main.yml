@@ -42,7 +42,7 @@ jobs:
       - name: Lint Pod
         env:
           COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
-        run: pod spec lint --verbose --allow-warnings
+        run: pod spec lint NodleSDK.podspec --verbose --allow-warnings
       
       # This should publish the pod with the latest version
       - name: Publish Trunk
