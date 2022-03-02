@@ -17,6 +17,20 @@
       "stat-sink": "dtn://nodle.io/ble/stat"
     }
   },
+  "beacon": {
+    "scan": {
+      "duration-msec": 10000,
+      "interval-msec": 90000,
+      "interval-x-factor": 1
+    },
+    "stat": {
+      "send-report-interval-msec": 86400000
+    },
+    "eid": {
+      "scan-sink": "dtn://nodle.io/ble/scan",
+      "stat-sink": "dtn://nodle.io/ble/stat"
+    }
+  },
   "cell": {
     "scan": {
       "interval-msec": 50000,

@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bBp5ku2bsVcDuR2ZyQn26UzfEQc=
+		lXt3AkBbmJNL3/izEb27DJV1v5k=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		arlYX6ESVPLIhROMqNsxqk3oP8Q=
+		9kC6ApDKxEr86ljDbskr0kAoVuE=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/ggAzozphk2FJQvIia+NlFd4xJo=
+		EP0jo8tIoxjCijKrojkesmnK2Hk=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		arlYX6ESVPLIhROMqNsxqk3oP8Q=
+		9kC6ApDKxEr86ljDbskr0kAoVuE=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		/ggAzozphk2FJQvIia+NlFd4xJo=
+		EP0jo8tIoxjCijKrojkesmnK2Hk=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		pEfrPoAfG/z/yLb6rvneue61G2Y=
+		0ySK4fdjrac7x038h7wmtA4TpoY=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nTHekVeZnzS0sxwy4797xN+6LKE=
+		w/8KAA4lmuudeepk43R8ITAqGZE=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		pEfrPoAfG/z/yLb6rvneue61G2Y=
+		0ySK4fdjrac7x038h7wmtA4TpoY=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		nTHekVeZnzS0sxwy4797xN+6LKE=
+		w/8KAA4lmuudeepk43R8ITAqGZE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>sdk_default_config.json</key>
 		<data>
-		yga4PT/jWe3tvio5zVcBlLjDHyM=
+		cuEGyApH1EDNKoHxg+mDgCgjA4I=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -100,14 +100,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TRIzMi6CUljAcL2l47Scv/w61UifCTEFA2UohzV6Efw=
+			zyMQa95AtB2A2gIgF5kQMA36ePbKJa3ULOvdtCv1vZo=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kNQwOptAjK1TdgIms1lyab/xmDpxWisbQAjGjmFORQk=
+			2oIyAWPoFV+bkfEs8dl2bjVz4vyo7uL/eIig6/KAp04=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/arm64.swiftdoc</key>
@@ -121,14 +121,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TRIzMi6CUljAcL2l47Scv/w61UifCTEFA2UohzV6Efw=
+			zyMQa95AtB2A2gIgF5kQMA36ePbKJa3ULOvdtCv1vZo=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kNQwOptAjK1TdgIms1lyab/xmDpxWisbQAjGjmFORQk=
+			2oIyAWPoFV+bkfEs8dl2bjVz4vyo7uL/eIig6/KAp04=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -142,14 +142,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5pPg0qQWFmeMX0Je5smrTY38kQ2gWt4HKFagLl+mNos=
+			y0vyKtmi3gAnThvNnocjz3NrJ4iZPWjywKh3O40N2oY=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zbv56ajbLCz2UNafz6t/vt+SG8PljqI7ujZCi+mZsZw=
+			rNgD7ndsOIGWc+VaygHRxnprgbGs7Nydi7GqpX+rAkg=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -163,14 +163,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5pPg0qQWFmeMX0Je5smrTY38kQ2gWt4HKFagLl+mNos=
+			y0vyKtmi3gAnThvNnocjz3NrJ4iZPWjywKh3O40N2oY=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zbv56ajbLCz2UNafz6t/vt+SG8PljqI7ujZCi+mZsZw=
+			rNgD7ndsOIGWc+VaygHRxnprgbGs7Nydi7GqpX+rAkg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -184,7 +184,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VS8Vi0vhRZ8ddgvaXpRBgr3coAr9CnEb4FdG9b6MurA=
+			96OTNhRu1rAPHfmTH8D7ZHXbYLi5teH6pMcpH/2TLVY=
 			</data>
 		</dict>
 	</dict>
