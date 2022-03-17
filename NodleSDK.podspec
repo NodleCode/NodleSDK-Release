@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.summary      = 'iOS library for the Nodle SDK'
   spec.homepage     = 'https://www.nodle.com/'
   spec.author       = 'Nodle'
-  spec.source       = { :git => 'git://github.com/NodleCode/NodleSDK-Release.git', :tag => spec.version.to_s }
+  spec.source       = { :git => 'https://github.com/NodleCode/NodleSDK-Release.git', :tag => spec.version.to_s }
   spec.vendored_frameworks = 'NodleSDK.xcframework'
   spec.ios.deployment_target = '13.0'
   spec.dependency 'SQLite.swift', '~> 0.13.0'
