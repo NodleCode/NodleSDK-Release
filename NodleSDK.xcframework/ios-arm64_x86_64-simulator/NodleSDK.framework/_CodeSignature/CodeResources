@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		lXt3AkBbmJNL3/izEb27DJV1v5k=
+		3/U0z1pDXqzaG82L5/sSampcPDc=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		9kC6ApDKxEr86ljDbskr0kAoVuE=
+		0HuLfuLOvx6W+ORCFE5aq4yRoc8=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QZk6f7oYwCB12NG75A5fQzfKAQ8=
+		1bfk/N/jTcJA+ayYu0M3qKX4GGI=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		9kC6ApDKxEr86ljDbskr0kAoVuE=
+		0HuLfuLOvx6W+ORCFE5aq4yRoc8=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		QZk6f7oYwCB12NG75A5fQzfKAQ8=
+		1bfk/N/jTcJA+ayYu0M3qKX4GGI=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		0ySK4fdjrac7x038h7wmtA4TpoY=
+		7lxXNAdQM4Hr5hLqxG4XpSTVzbI=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		WuLO62fk/sKpUt6lyD5tPpxOXZA=
+		7jYK6sLJmNDUvXFWixSZzpfpNEo=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		0ySK4fdjrac7x038h7wmtA4TpoY=
+		7lxXNAdQM4Hr5hLqxG4XpSTVzbI=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		WuLO62fk/sKpUt6lyD5tPpxOXZA=
+		7jYK6sLJmNDUvXFWixSZzpfpNEo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>sdk_default_config.json</key>
 		<data>
-		cuEGyApH1EDNKoHxg+mDgCgjA4I=
+		19Ve9fXHyN6bCZc/V4zxPwZWHxk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -100,14 +100,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zyMQa95AtB2A2gIgF5kQMA36ePbKJa3ULOvdtCv1vZo=
+			j4iJ39nLP1Yoi3IATLb9J4P/5My05bRDdpI4shp8D+c=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RpQKK+CyZvlC5GQAhaAOuLf+z0YEyaZP58x6UIka88M=
+			Ysa/2hbqxeJkSXFON4L+HNqlPDJhTG255RECCSvqpWE=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/arm64.swiftdoc</key>
@@ -121,14 +121,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zyMQa95AtB2A2gIgF5kQMA36ePbKJa3ULOvdtCv1vZo=
+			j4iJ39nLP1Yoi3IATLb9J4P/5My05bRDdpI4shp8D+c=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RpQKK+CyZvlC5GQAhaAOuLf+z0YEyaZP58x6UIka88M=
+			Ysa/2hbqxeJkSXFON4L+HNqlPDJhTG255RECCSvqpWE=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -142,14 +142,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y0vyKtmi3gAnThvNnocjz3NrJ4iZPWjywKh3O40N2oY=
+			+hXSdNqJNzghBjDrAowpwlFkY2vLkldYXRe6+TD1COs=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BcZ73pEBq4eI/sSPey1++n123N//wDCNzL4omRbt/GM=
+			Aoj66A1mtk6W74zrNfsYShPxVQOzBAMRhxDB7/dZxZY=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -163,14 +163,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y0vyKtmi3gAnThvNnocjz3NrJ4iZPWjywKh3O40N2oY=
+			+hXSdNqJNzghBjDrAowpwlFkY2vLkldYXRe6+TD1COs=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BcZ73pEBq4eI/sSPey1++n123N//wDCNzL4omRbt/GM=
+			Aoj66A1mtk6W74zrNfsYShPxVQOzBAMRhxDB7/dZxZY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -184,7 +184,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			96OTNhRu1rAPHfmTH8D7ZHXbYLi5teH6pMcpH/2TLVY=
+			81HnKJmCsYuKddQJ7GtWSDP4u02B1+uADPENOV3yqJ8=
 			</data>
 		</dict>
 	</dict>

@@ -7,21 +7,10 @@
     "scan": {
       "duration-msec": 10000,
       "interval-msec": 90000,
-      "interval-x-factor": 1
-    },
-    "stat": {
-      "send-report-interval-msec": 86400000
-    },
-    "eid": {
-      "scan-sink": "dtn://nodle.io/ble/scan",
-      "stat-sink": "dtn://nodle.io/ble/stat"
-    }
-  },
-  "beacon": {
-    "scan": {
-      "duration-msec": 10000,
-      "interval-msec": 90000,
-      "interval-x-factor": 1
+      "interval-x-factor": 1,
+      "duration-ios-cl-msec": 10000,
+      "interval-ios-cl-msec": 90000,
+      "interval-ios-cl-x-factor": 1
     },
     "stat": {
       "send-report-interval-msec": 86400000
@@ -65,7 +54,8 @@
   },
   "cron": {
     "pull-config-interval-msec": 300000,
-    "check-network-interval-msec": 30000
+    "check-network-interval-msec": 30000,
+    "ios-bt-refresh-sec": 0
   },
   "id": {
     "expire-sec": -1

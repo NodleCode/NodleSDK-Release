@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		FR79ntXhF3ExJcOEMSYUgvdD9Y4=
+		jA8mhEYZr1D9EVECIeICAIQ7Z2o=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		yT5sNdFYN/gMXuFZg4V5pW94hfQ=
+		V9rR3DkHosvoKZlOtBjQ763m6ls=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		d+EzSX9Y5wG1I2Os0SUy1pAO1wQ=
+		sB712kngxXU0kqrYvZ7gxGH9WdY=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		yT5sNdFYN/gMXuFZg4V5pW94hfQ=
+		V9rR3DkHosvoKZlOtBjQ763m6ls=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		d+EzSX9Y5wG1I2Os0SUy1pAO1wQ=
+		sB712kngxXU0kqrYvZ7gxGH9WdY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>sdk_default_config.json</key>
 		<data>
-		cuEGyApH1EDNKoHxg+mDgCgjA4I=
+		19Ve9fXHyN6bCZc/V4zxPwZWHxk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -76,14 +76,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+b1Aj6Kn9dBjGU4ksfUdAvBT8pxZpp/TxwDVhCHgXzs=
+			MC0rwhUDF112+RkaBgLjCBIflhitA5QZx60a7wADrCQ=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1lnf9uzAUbAQUD5tSJOnpCn60SG1bDjsUrXhgf0go5Y=
+			HZqoj6rNMTq6eQWsAAe1/7tMXG1Gk6l8Oamy+maChoo=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/arm64.swiftdoc</key>
@@ -97,14 +97,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+b1Aj6Kn9dBjGU4ksfUdAvBT8pxZpp/TxwDVhCHgXzs=
+			MC0rwhUDF112+RkaBgLjCBIflhitA5QZx60a7wADrCQ=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1lnf9uzAUbAQUD5tSJOnpCn60SG1bDjsUrXhgf0go5Y=
+			HZqoj6rNMTq6eQWsAAe1/7tMXG1Gk6l8Oamy+maChoo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -118,7 +118,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			96OTNhRu1rAPHfmTH8D7ZHXbYLi5teH6pMcpH/2TLVY=
+			81HnKJmCsYuKddQJ7GtWSDP4u02B1+uADPENOV3yqJ8=
 			</data>
 		</dict>
 	</dict>
