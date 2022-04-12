@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1bfk/N/jTcJA+ayYu0M3qKX4GGI=
+		PrfJk1oA61kwCW/XY3+G1jhGqcA=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		1bfk/N/jTcJA+ayYu0M3qKX4GGI=
+		PrfJk1oA61kwCW/XY3+G1jhGqcA=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		7jYK6sLJmNDUvXFWixSZzpfpNEo=
+		KnqjwdhyMDRJxL4IsWLU9KgwkMU=
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/NodleSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		7jYK6sLJmNDUvXFWixSZzpfpNEo=
+		KnqjwdhyMDRJxL4IsWLU9KgwkMU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>sdk_default_config.json</key>
 		<data>
-		19Ve9fXHyN6bCZc/V4zxPwZWHxk=
+		/xH/uayem4b0W88bPDcvyDn7WQI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -107,7 +107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ysa/2hbqxeJkSXFON4L+HNqlPDJhTG255RECCSvqpWE=
+			vLhKH0MROqfK6Jl18PzLrjHo0gLX2/OA778D13oJXAI=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/arm64.swiftdoc</key>
@@ -128,7 +128,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ysa/2hbqxeJkSXFON4L+HNqlPDJhTG255RECCSvqpWE=
+			vLhKH0MROqfK6Jl18PzLrjHo0gLX2/OA778D13oJXAI=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -149,7 +149,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Aoj66A1mtk6W74zrNfsYShPxVQOzBAMRhxDB7/dZxZY=
+			n2k3a2HjYaJQ9KvaN+NwZ+yNXYVfsTrdcIFBMEAHyFs=
 			</data>
 		</dict>
 		<key>Modules/NodleSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -170,7 +170,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Aoj66A1mtk6W74zrNfsYShPxVQOzBAMRhxDB7/dZxZY=
+			n2k3a2HjYaJQ9KvaN+NwZ+yNXYVfsTrdcIFBMEAHyFs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -184,7 +184,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			81HnKJmCsYuKddQJ7GtWSDP4u02B1+uADPENOV3yqJ8=
+			1j4VSn8HK1B7Dy1BJ8xH3cmmTfZ6errSuACeuVOXGDE=
 			</data>
 		</dict>
 	</dict>

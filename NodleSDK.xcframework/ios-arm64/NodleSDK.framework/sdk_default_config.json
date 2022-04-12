@@ -4,26 +4,27 @@
     "fix-timeout-msec": 15000
   },
   "ble": {
+    "enable": true,
     "scan": {
       "duration-msec": 10000,
       "interval-msec": 90000,
       "interval-x-factor": 1,
       "duration-ios-cl-msec": 10000,
       "interval-ios-cl-msec": 90000,
-      "interval-ios-cl-x-factor": 1
+      "interval-ios-cl-x-factor": 1,
+      "background": 2
     },
     "stat": {
       "send-report-interval-msec": 86400000
     },
     "eid": {
-      "scan-sink": "dtn://nodle.io/ble/scan",
-      "stat-sink": "dtn://nodle.io/ble/stat"
+      "scan-sink": "dtn://nodle.io/ble/scan"
     }
   },
   "cell": {
+    "enable": true,
     "scan": {
-      "interval-msec": 50000,
-      "enable": true
+      "interval-msec": 50000
     },
     "eid": {
       "scan-sink": "dtn://nodle.io/cell/scan"
@@ -47,15 +48,23 @@
     "authority": "nodle.io",
     "pub-key": "0xa2fe252365c4359dba8cc33f9f2ff40c5d51ff60ec12fad5a903fb36e07a2ff9"
   },
+  "telemetry": {
+      "enable": true,
+      "eid": {
+          "stat-sink": "dtn://nodle.io/ble/stat"
+      }
+  },
   "dtn": {
     "use-cellular": true,
-    "default-push-url": "https://us-central1-production-242307.cloudfunctions.net/dtn-outbox",
-    "default-pull-url": "https://us-central1-production-242307.cloudfunctions.net/dtn-inbox"
+    "default-push-url": "https://dtn.nodle.io/outbox",
+    "default-pull-url": "https://dtn.nodle.io/inbox"
   },
   "cron": {
     "pull-config-interval-msec": 300000,
     "check-network-interval-msec": 30000,
-    "ios-bt-refresh-sec": 0
+    "ios-bt-refresh-sec": 300,
+    "ios-bg-mode": 2,
+    "ios-bg-mode-distance-meters": 20
   },
   "id": {
     "expire-sec": -1
