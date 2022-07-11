@@ -8,9 +8,7 @@ import CoreFoundation
 import CoreLocation
 import CryptoKit
 import Foundation
-import Network
 @_exported import NodleSDK
-import SQLite
 import Swift
 import SwiftCBOR
 import SwiftProtobuf
@@ -56,6 +54,8 @@ extension NodleDispatcher {
 }
 public let HTTP_OK: Swift.Int
 public let HTTP_ACCEPTED: Swift.Int
+public let HTTP_BAD_REQUEST: Swift.Int
+public let HTTP_UNAUTHORIZED: Swift.Int
 @_hasMissingDesignatedInitializers public class NodleBluetoothRecord {
   public var type: NodleSDK.NodleEventType
   public var device: Swift.String
