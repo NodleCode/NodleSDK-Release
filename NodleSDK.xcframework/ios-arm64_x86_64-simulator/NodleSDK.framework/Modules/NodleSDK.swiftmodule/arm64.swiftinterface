@@ -13,22 +13,58 @@ import Swift
 import SwiftCBOR
 import SwiftProtobuf
 import UIKit
-extension NodleDispatcher {
-  public func registerNodleBackgroundTask()
-  public func scheduleNodleBackgroundTask()
-}
 @_hasMissingDesignatedInitializers public class NodleDispatcher {
   public func showConfig() -> Swift.String
   public func config(path: Swift.String)
   public func config<T>(key: Swift.String, value: T)
   public func isStarted() -> Swift.Bool
   public func isScanning() -> Swift.Bool
+  public func getHeartbeats() -> Swift.Array<NodleSDK.NodleHeartbeatRecord?>?
+  public func getH3() -> NodleSDK.H3?
   public func stop()
   public func clear()
   public func getMetric(which: NodleSDK.SdkMetricType) -> Swift.Int64
   public func getVersion() -> Swift.String
   public func getEvents(upstream: @escaping (NodleSDK.NodleEvent) -> Swift.Void)
   public func start(devKey: Swift.String, tags: Swift.String...)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class NodleHeartbeatScanRecord : NodleSDK.NodleHeartbeatRecord, Swift.CustomStringConvertible {
+  public var id: Swift.Int64?
+  public var timestamp: Swift.UInt64?
+  public var timezone: Swift.Int?
+  public var locationH3: Swift.String?
+  public var geoHash: Swift.String?
+  public var isBlePermissionsGranted: Swift.Bool?
+  public var isLocPermissionsGranted: Swift.Bool?
+  public var isWifiEnabled: Swift.Bool?
+  public var isCellEnabled: Swift.Bool?
+  public var isBluetoothEnabled: Swift.Bool?
+  public var sdkVersion: Swift.String?
+  public var configVersion: Swift.String?
+  public var os: Swift.String?
+  public var phone: Swift.String?
+  public var release: Swift.String?
+  public var api: Swift.String?
+  public var hardware: Swift.String?
+  public var appName: Swift.String?
+  public var battery: Swift.Int?
+  public var charging: Swift.Bool?
+  public var appInForeground: Swift.Bool?
+  public var phoneStorageTotal: Swift.String?
+  public var phoneStorageAvailable: Swift.String?
+  public var sdkStorage: Swift.String?
+  public var httpIn: Swift.String?
+  public var httpOut: Swift.String?
+  public var bundleRxCount: Swift.Int?
+  public var bundleTxCount: Swift.Int?
+  public var bleScanSuccess: Swift.Int?
+  public var bleScanFailed: Swift.Int?
+  public var blePayloadCount: Swift.Int?
+  public var buildType: Swift.String?
+  public var description: Swift.String {
+    get
+  }
   @objc deinit
 }
 @_hasMissingDesignatedInitializers open class AbstractSecurityParameter {
@@ -75,6 +111,85 @@ infix operator >>> : BitwiseShiftPrecedence
 }
 public protocol NodleEvent {
   var type: NodleSDK.NodleEventType { get }
+}
+public protocol NodleHeartbeatRecord {
+  var id: Swift.Int64? { get }
+  var timestamp: Swift.UInt64? { get }
+  var timezone: Swift.Int? { get }
+  var locationH3: Swift.String? { get }
+  var geoHash: Swift.String? { get }
+  var isBlePermissionsGranted: Swift.Bool? { get }
+  var isLocPermissionsGranted: Swift.Bool? { get }
+  var isWifiEnabled: Swift.Bool? { get }
+  var isCellEnabled: Swift.Bool? { get }
+  var isBluetoothEnabled: Swift.Bool? { get }
+  var sdkVersion: Swift.String? { get }
+  var configVersion: Swift.String? { get }
+  var os: Swift.String? { get }
+  var phone: Swift.String? { get }
+  var release: Swift.String? { get }
+  var api: Swift.String? { get }
+  var hardware: Swift.String? { get }
+  var appName: Swift.String? { get }
+  var battery: Swift.Int? { get }
+  var charging: Swift.Bool? { get }
+  var appInForeground: Swift.Bool? { get }
+  var phoneStorageTotal: Swift.String? { get }
+  var phoneStorageAvailable: Swift.String? { get }
+  var sdkStorage: Swift.String? { get }
+  var httpIn: Swift.String? { get }
+  var httpOut: Swift.String? { get }
+  var bundleRxCount: Swift.Int? { get }
+  var bundleTxCount: Swift.Int? { get }
+  var bleScanSuccess: Swift.Int? { get }
+  var bleScanFailed: Swift.Int? { get }
+  var blePayloadCount: Swift.Int? { get }
+  var buildType: Swift.String? { get }
+}
+public typealias NodleLat = Swift.Double
+public typealias NodleLng = Swift.Double
+public enum H3AreaUnit {
+  case KM2
+  case M2
+  public static func == (a: NodleSDK.H3AreaUnit, b: NodleSDK.H3AreaUnit) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum H3LengthUnit {
+  case KM
+  case M
+  public static func == (a: NodleSDK.H3LengthUnit, b: NodleSDK.H3LengthUnit) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol H3 {
+  func h3IsValid(h3: Swift.Int64) -> Swift.Bool
+  func h3IsValid(h3Address: Swift.String) -> Swift.Bool
+  func h3GetBaseCell(h3: Swift.Int64) -> Swift.Int
+  func h3GetBaseCell(h3Address: Swift.String) -> Swift.Int
+  func h3IsPentagon(h3: Swift.Int64) -> Swift.Bool
+  func h3IsPentagon(h3Address: Swift.String) -> Swift.Bool
+  func geoToH3(lat: Swift.Double, lng: Swift.Double, res: Swift.Int) -> Swift.Int64
+  func geoToH3Address(lat: Swift.Double, lng: Swift.Double, res: Swift.Int) -> Swift.String
+  func h3ToGeo(h3: Swift.Int64) -> (NodleSDK.NodleLat, NodleSDK.NodleLng)
+  func h3ToGeo(h3Address: Swift.String) -> (NodleSDK.NodleLat, NodleSDK.NodleLng)
+  func h3ToGeoBoundary(h3: Swift.Int64) -> Swift.Array<(NodleSDK.NodleLat, NodleSDK.NodleLng)>
+  func h3ToGeoBoundary(h3Address: Swift.String) -> Swift.Array<(NodleSDK.NodleLat, NodleSDK.NodleLng)>
+  func kRing(h3Address: Swift.String, k: Swift.Int) -> Swift.Array<Swift.String?>?
+  func kRing(h3Index: Swift.Int64, k: Swift.Int) -> Swift.Array<Swift.Int64>
+  func h3Distance(a: Swift.String, b: Swift.String) -> Swift.Int
+  func h3Distance(a: Swift.Int64, b: Swift.Int64) -> Swift.Int
+  func h3Line(startAddress: Swift.String, endAddress: Swift.String) -> Swift.Array<Swift.String?>?
+  func h3Line(start: Swift.Int64, end: Swift.Int64) -> Swift.Array<Swift.Int64>
+  func h3GetResolution(h3Address: Swift.String) -> Swift.Int
+  func h3GetResolution(h3: Swift.Int64) -> Swift.Int
+  func h3ToString(index: Swift.Int64) -> Swift.String?
+  func stringToH3(h3Address: Swift.String) -> Swift.Int64
+  func numHexagons(res: Swift.Int) -> Swift.Int64
 }
 public enum NodleEventType : Swift.Int {
   case BlePayloadEvent
@@ -138,6 +253,8 @@ public enum SdkMetricType : Swift.Int, Swift.CustomStringConvertible {
   case BleScanSuccess
   case BleScanFailed
   case GeoHash
+  case DeveloperMode
+  case BuildType
   case MetricUnknown
   public var description: Swift.String {
     get
@@ -151,6 +268,10 @@ public enum SdkMetricType : Swift.Int, Swift.CustomStringConvertible {
 extension NodleSDK.NodleBluetoothEvent : NodleSDK.NodleEvent {}
 extension NodleSDK.NodleBeaconRecord : NodleSDK.NodleEvent {}
 extension NodleSDK.NodleBluetoothRecord : NodleSDK.NodleEvent {}
+extension NodleSDK.H3AreaUnit : Swift.Equatable {}
+extension NodleSDK.H3AreaUnit : Swift.Hashable {}
+extension NodleSDK.H3LengthUnit : Swift.Equatable {}
+extension NodleSDK.H3LengthUnit : Swift.Hashable {}
 extension NodleSDK.NodleEventType : Swift.Equatable {}
 extension NodleSDK.NodleEventType : Swift.Hashable {}
 extension NodleSDK.NodleEventType : Swift.RawRepresentable {}
