@@ -15,6 +15,13 @@ import Swift
 import SwiftCBOR
 import SwiftProtobuf
 import UIKit
+extension NodleLocationManager {
+  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didStartMonitoringFor region: CoreLocation.CLRegion)
+  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didDetermineState state: CoreLocation.CLRegionState, for region: CoreLocation.CLRegion)
+  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didEnterRegion region: CoreLocation.CLRegion)
+  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didExitRegion region: CoreLocation.CLRegion)
+  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didRangeBeacons beacons: [CoreLocation.CLBeacon], in region: CoreLocation.CLBeaconRegion)
+}
 @_hasMissingDesignatedInitializers public class NodleDispatcher {
   public func showConfig() -> Swift.String
   public func config(path: Swift.String)
@@ -222,6 +229,21 @@ extension Array where Element : Swift.Hashable {
 }
 extension Sequence where Self.Element : Swift.Hashable {
   public func contains(_ elements: [Self.Element]) -> Swift.Bool
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class NodleLocationManager : ObjectiveC.NSObject, CoreLocation.CLLocationManagerDelegate {
+  public static let sharedInstance: NodleSDK.NodleLocationManager
+  public var location: CoreLocation.CLLocation?
+  public var triggerRestart: ((Swift.Bool) -> Swift.Void)?
+  public var checkPermissions: Swift.Bool {
+    get
+  }
+  public var hasBackgroundCapabilities: Swift.Bool {
+    get
+  }
+  public func restartNodleInTerminatedState(trigger: @escaping (Swift.Bool?) -> Swift.Void)
+  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [CoreLocation.CLLocation])
+  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didFailWithError error: Swift.Error)
+  @objc deinit
 }
 public enum SdkMetricType : Swift.Int, Swift.CustomStringConvertible {
   case BleScanCount
