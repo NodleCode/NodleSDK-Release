@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name NodleSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import BackgroundTasks
 import CommonCrypto
 import CoreBluetooth
@@ -13,19 +14,22 @@ import Swift
 import SwiftCBOR
 import SwiftProtobuf
 import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers public class NodleDispatcher {
   public func showConfig() -> Swift.String
   public func config(path: Swift.String)
   public func config<T>(key: Swift.String, value: T)
   public func isStarted() -> Swift.Bool
   public func isScanning() -> Swift.Bool
-  public func getHeartbeats() -> Swift.Array<NodleSDK.NodleHeartbeatRecord?>?
-  public func getH3() -> NodleSDK.H3?
+  public func getHeartbeats() -> Swift.Array<(any NodleSDK.NodleHeartbeatRecord)?>?
+  public func getH3() -> (any NodleSDK.H3)?
   public func stop()
   public func clear()
   public func getMetric(which: NodleSDK.SdkMetricType) -> Swift.Int64
   public func getVersion() -> Swift.String
-  public func getEvents(upstream: @escaping (NodleSDK.NodleEvent) -> Swift.Void)
+  public func getEvents(upstream: @escaping (any NodleSDK.NodleEvent) -> Swift.Void)
   public func start(devKey: Swift.String, tags: Swift.String...)
   @objc deinit
 }
@@ -212,13 +216,13 @@ public enum NodleEventType : Swift.Int {
   public var type: NodleSDK.NodleEventType
   @objc deinit
 }
-extension UUID {
+extension Foundation.UUID {
   public func toUInt8Array() -> [Swift.UInt8]
 }
-extension Array where Element : Swift.Hashable {
+extension Swift.Array where Element : Swift.Hashable {
   public func uniqued() -> [Element]
 }
-extension Sequence where Self.Element : Swift.Hashable {
+extension Swift.Sequence where Self.Element : Swift.Hashable {
   public func contains(_ elements: [Self.Element]) -> Swift.Bool
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class NodleLocationManager : ObjectiveC.NSObject, CoreLocation.CLLocationManagerDelegate {
@@ -233,7 +237,7 @@ extension Sequence where Self.Element : Swift.Hashable {
   }
   public func restartNodleInTerminatedState(trigger: @escaping (Swift.Bool?) -> Swift.Void)
   @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [CoreLocation.CLLocation])
-  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didFailWithError error: Swift.Error)
+  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didFailWithError error: any Swift.Error)
   @objc deinit
 }
 public enum SdkMetricType : Swift.Int, Swift.CustomStringConvertible {
