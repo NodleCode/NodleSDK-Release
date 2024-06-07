@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name NodleSDK
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NodleSDK
 import BackgroundTasks
 import CommonCrypto
 import CoreBluetooth
@@ -19,13 +18,6 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-extension NodleSDK.NodleLocationManager {
-  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didStartMonitoringFor region: CoreLocation.CLRegion)
-  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didDetermineState state: CoreLocation.CLRegionState, for region: CoreLocation.CLRegion)
-  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didEnterRegion region: CoreLocation.CLRegion)
-  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didExitRegion region: CoreLocation.CLRegion)
-  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didRangeBeacons beacons: [CoreLocation.CLBeacon], in region: CoreLocation.CLBeaconRegion)
-}
 @_hasMissingDesignatedInitializers public class NodleDispatcher {
   public func showConfig() -> Swift.String
   public func config(path: Swift.String)
@@ -39,6 +31,8 @@ extension NodleSDK.NodleLocationManager {
   public func getMetric(which: NodleSDK.SdkMetricType) -> Swift.Int64
   public func getVersion() -> Swift.String
   public func getEvents(upstream: @escaping (any NodleSDK.NodleEvent) -> Swift.Void)
+  public func getLocationForMedia()
+  public func getLocationInfo(location: CoreLocation.CLLocation)
   public func start(devKey: Swift.String, tags: Swift.String...)
   @objc deinit
 }
@@ -233,21 +227,6 @@ extension Swift.Array where Element : Swift.Hashable {
 }
 extension Swift.Sequence where Self.Element : Swift.Hashable {
   public func contains(_ elements: [Self.Element]) -> Swift.Bool
-}
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class NodleLocationManager : ObjectiveC.NSObject, CoreLocation.CLLocationManagerDelegate {
-  public static let sharedInstance: NodleSDK.NodleLocationManager
-  public var location: CoreLocation.CLLocation?
-  public var triggerRestart: ((Swift.Bool) -> Swift.Void)?
-  public var checkPermissions: Swift.Bool {
-    get
-  }
-  public var hasBackgroundCapabilities: Swift.Bool {
-    get
-  }
-  public func restartNodleInTerminatedState(trigger: @escaping (Swift.Bool?) -> Swift.Void)
-  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [CoreLocation.CLLocation])
-  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didFailWithError error: any Swift.Error)
-  @objc deinit
 }
 public enum SdkMetricType : Swift.Int, Swift.CustomStringConvertible {
   case BleScanCount

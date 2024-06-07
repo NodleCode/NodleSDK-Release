@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/NodleSDK.framework/Headers/NodleSDK-Swift.h</key>
 		<data>
-		a9LMiGwowJHAHpk2pO8R7wOOQek=
+		WQF1gTauMM50ZsqKUOepDnNt+Ac=
 		</data>
 		<key>ios-arm64/NodleSDK.framework/Headers/NodleSDK.h</key>
 		<data>
@@ -14,23 +14,23 @@
 		</data>
 		<key>ios-arm64/NodleSDK.framework/Info.plist</key>
 		<data>
-		y/P07p4HSshm4oCVouaxe9tP5aQ=
+		Ai8m5lIKnlyY4vR8MFi7C1l1E6U=
 		</data>
 		<key>ios-arm64/NodleSDK.framework/Modules/NodleSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		DqDyJ+tEvaaJnMDLrWw17ypl5OM=
+		Hk6YajUgIwN1HC5XQogpr1D8IDg=
 		</data>
 		<key>ios-arm64/NodleSDK.framework/Modules/NodleSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		CAyb358LlJo7FWkGAStCiC16kwk=
+		9FGdoFFh0HDEwIeksZuj16lTLsE=
 		</data>
 		<key>ios-arm64/NodleSDK.framework/Modules/NodleSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		g4oNhuwywk0wxkMKA0lJox2geu4=
+		tIqiuGo3JuY6N1av6T5E0ORn9aM=
 		</data>
 		<key>ios-arm64/NodleSDK.framework/Modules/NodleSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		CAyb358LlJo7FWkGAStCiC16kwk=
+		9FGdoFFh0HDEwIeksZuj16lTLsE=
 		</data>
 		<key>ios-arm64/NodleSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -38,15 +38,15 @@
 		</data>
 		<key>ios-arm64/NodleSDK.framework/NodleSDK</key>
 		<data>
-		08kOUYiZVAtdQIn/2s87Tnp9/Lw=
+		+JfawrM+Fi1gbK9azyZAGnuawas=
 		</data>
 		<key>ios-arm64/NodleSDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
-		bUN7eS5VnfyRcqockfkswZ1tghs=
+		Po4EWPhXaIIzyrJMNjMmCnn97Vg=
 		</data>
 		<key>ios-arm64/NodleSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		tI9GXkh747XboHBl7Gi4K+NqnGs=
+		6ywNkL+dECZwJknpRFkozmlK6dI=
 		</data>
 		<key>ios-arm64/NodleSDK.framework/sdk_default_config.json</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NodleSDK.framework/Headers/NodleSDK-Swift.h</key>
 		<data>
-		CsNcU8PnyFOeG2zbIM48d+S4l7M=
+		hyjgLHfaYiBMCgMhqps55F2P8Z8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NodleSDK.framework/Headers/NodleSDK.h</key>
 		<data>
@@ -62,39 +62,39 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NodleSDK.framework/Info.plist</key>
 		<data>
-		qyPB8WI3Y5xJNv3UwAO5J4OTbCY=
+		nFsiegkiCXnEsQpyxtAlRFPf9k0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NodleSDK.framework/Modules/NodleSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		wqTHfYWLzTOg4Fx/eUknsxFQeNc=
+		vr/pmGBJKnHdlNNwq6z9hF4y95E=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NodleSDK.framework/Modules/NodleSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		5tYWeyldMbDROXSR7pYAKOATxFE=
+		95W+b6/n2sMhrxyZi17wTTTEnog=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NodleSDK.framework/Modules/NodleSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		/37xSWymB7VFYfd0ZxIyXh2fxko=
+		qpQnKO3xP+slLKoaKRYtuy9qIFI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NodleSDK.framework/Modules/NodleSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		5tYWeyldMbDROXSR7pYAKOATxFE=
+		95W+b6/n2sMhrxyZi17wTTTEnog=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NodleSDK.framework/Modules/NodleSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		wqTHfYWLzTOg4Fx/eUknsxFQeNc=
+		vr/pmGBJKnHdlNNwq6z9hF4y95E=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NodleSDK.framework/Modules/NodleSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		SFFOgckywE1qgi4W0IP0641uvXE=
+		Up5LHDMmzbcSalt58kKHSZc2YRE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NodleSDK.framework/Modules/NodleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		K3L72/Mxuw/1SThAvUfxvazJtUI=
+		39arMbvWrza449gxSdy4e+Yw+vQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NodleSDK.framework/Modules/NodleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		SFFOgckywE1qgi4W0IP0641uvXE=
+		Up5LHDMmzbcSalt58kKHSZc2YRE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NodleSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -102,15 +102,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NodleSDK.framework/NodleSDK</key>
 		<data>
-		fvuNcZI5DUP0QjME1BVisZ0+i6A=
+		EQjSBRy4YCDKYhbeOXw5u63j378=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NodleSDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
-		bUN7eS5VnfyRcqockfkswZ1tghs=
+		Po4EWPhXaIIzyrJMNjMmCnn97Vg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NodleSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		m2u2Pi2HUe98ASC+ZthUuYcTEyE=
+		uMq4vLsphoJW81MUGUSXiXyDRaI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NodleSDK.framework/sdk_default_config.json</key>
 		<data>
@@ -123,11 +123,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			a9LMiGwowJHAHpk2pO8R7wOOQek=
+			WQF1gTauMM50ZsqKUOepDnNt+Ac=
 			</data>
 			<key>hash2</key>
 			<data>
-			s8mEda8fNQ7c+wZlontkFzkEiyFAywtKQNQEwe9yYjw=
+			w0bkspynj+T3cvCeSohi3Wsl97YwTrsyf9e5ZPRSs2E=
 			</data>
 		</dict>
 		<key>ios-arm64/NodleSDK.framework/Headers/NodleSDK.h</key>
@@ -145,55 +145,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			y/P07p4HSshm4oCVouaxe9tP5aQ=
+			Ai8m5lIKnlyY4vR8MFi7C1l1E6U=
 			</data>
 			<key>hash2</key>
 			<data>
-			583wxi2GfET5K2b4hvuluK/WtMZ9gmjb4/9yoNP+7zg=
+			1B8njP2OSN7pl+66jUEALoT/lhISD7eghCK7LDNL2KA=
 			</data>
 		</dict>
 		<key>ios-arm64/NodleSDK.framework/Modules/NodleSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DqDyJ+tEvaaJnMDLrWw17ypl5OM=
+			Hk6YajUgIwN1HC5XQogpr1D8IDg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ya68EC2R57PI9RMoc4g1Bh93KVfpMQZK3LISO7RL7XE=
+			XhpRji521r7PCz4rCPNwnf1NpKbJAFD75xbbbQGIABY=
 			</data>
 		</dict>
 		<key>ios-arm64/NodleSDK.framework/Modules/NodleSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CAyb358LlJo7FWkGAStCiC16kwk=
+			9FGdoFFh0HDEwIeksZuj16lTLsE=
 			</data>
 			<key>hash2</key>
 			<data>
-			GmURqY6QNHGokf280945EgyHBN2G4/nf0scV2IvlhUo=
+			RewKYSGq8YS3yJJxZk6UwjhdOMSsh1D5jF5qit83D94=
 			</data>
 		</dict>
 		<key>ios-arm64/NodleSDK.framework/Modules/NodleSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			g4oNhuwywk0wxkMKA0lJox2geu4=
+			tIqiuGo3JuY6N1av6T5E0ORn9aM=
 			</data>
 			<key>hash2</key>
 			<data>
-			V3cKFAdiFUwjUx6xWY2LtzNm99SPDQ6FnAUiIgL40aE=
+			m/nth6Y+1IFwVwDpdCvqe6SpNcc7COTJ9f9PQlwMxnw=
 			</data>
 		</dict>
 		<key>ios-arm64/NodleSDK.framework/Modules/NodleSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CAyb358LlJo7FWkGAStCiC16kwk=
+			9FGdoFFh0HDEwIeksZuj16lTLsE=
 			</data>
 			<key>hash2</key>
 			<data>
-			GmURqY6QNHGokf280945EgyHBN2G4/nf0scV2IvlhUo=
+			RewKYSGq8YS3yJJxZk6UwjhdOMSsh1D5jF5qit83D94=
 			</data>
 		</dict>
 		<key>ios-arm64/NodleSDK.framework/Modules/module.modulemap</key>
@@ -211,33 +211,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			08kOUYiZVAtdQIn/2s87Tnp9/Lw=
+			+JfawrM+Fi1gbK9azyZAGnuawas=
 			</data>
 			<key>hash2</key>
 			<data>
-			5lmFCOK2eWNMmwcsL8uEvsp0RmDeNh/r3C7MwHuipnA=
+			9/hRvREtoaZ+CkFK9K240Ub30aRfMn/5ZlKDv12KwaQ=
 			</data>
 		</dict>
 		<key>ios-arm64/NodleSDK.framework/PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bUN7eS5VnfyRcqockfkswZ1tghs=
+			Po4EWPhXaIIzyrJMNjMmCnn97Vg=
 			</data>
 			<key>hash2</key>
 			<data>
-			JkDwD5KgjQvp+sin1uuE20XH8WZ03+jhbs+DhEXtC2U=
+			vwzkMV7s6XWrv0qrSnNRgJzTHGXVlldRzNmFDfW4RaE=
 			</data>
 		</dict>
 		<key>ios-arm64/NodleSDK.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tI9GXkh747XboHBl7Gi4K+NqnGs=
+			6ywNkL+dECZwJknpRFkozmlK6dI=
 			</data>
 			<key>hash2</key>
 			<data>
-			dwNe+ZvZ9I9qQ1qtGlAO6dNGKpVDcv7IpZLpeDaKiuw=
+			+mIcFhw4tVwFugf9hgIhV3oe+aKMuxTpqITYmGR6MNM=
 			</data>
 		</dict>
 		<key>ios-arm64/NodleSDK.framework/sdk_default_config.json</key>
@@ -255,11 +255,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CsNcU8PnyFOeG2zbIM48d+S4l7M=
+			hyjgLHfaYiBMCgMhqps55F2P8Z8=
 			</data>
 			<key>hash2</key>
 			<data>
-			uOjvro584XPv0A58htVyA4Y1IlxexD44nqPFESaVeYU=
+			+1aV37qtcUJtvDib1cvmsDgeF2/rFPCIrUP7Nu87HFU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NodleSDK.framework/Headers/NodleSDK.h</key>
@@ -277,99 +277,99 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qyPB8WI3Y5xJNv3UwAO5J4OTbCY=
+			nFsiegkiCXnEsQpyxtAlRFPf9k0=
 			</data>
 			<key>hash2</key>
 			<data>
-			p2EclrW0rRE0cv7N38I5gJgbrvS2LBSlDvNbdE87NR8=
+			eNRZ9ejKN/9Ee8AzEDYxOS3LI9FH+clSKk4i7L10QwQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NodleSDK.framework/Modules/NodleSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wqTHfYWLzTOg4Fx/eUknsxFQeNc=
+			vr/pmGBJKnHdlNNwq6z9hF4y95E=
 			</data>
 			<key>hash2</key>
 			<data>
-			6DTxGg9o/aHbO3uDywIm4UxFV8o+98kOv+2LW1xPXzY=
+			WixIPcUnbi1B1M9uP7F+FBaG5qgHuuVO3iL+oEA1cUs=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NodleSDK.framework/Modules/NodleSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5tYWeyldMbDROXSR7pYAKOATxFE=
+			95W+b6/n2sMhrxyZi17wTTTEnog=
 			</data>
 			<key>hash2</key>
 			<data>
-			IK7L3LsZkkHI1IczTGoG/7xu+bXIqVGjY2d7VR2bBB0=
+			NBBOt73rvjheSEHj/ME+d6tGOf2YGC8jhLjxGbCv2oA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NodleSDK.framework/Modules/NodleSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/37xSWymB7VFYfd0ZxIyXh2fxko=
+			qpQnKO3xP+slLKoaKRYtuy9qIFI=
 			</data>
 			<key>hash2</key>
 			<data>
-			61Wkc9SQEN2wxvWXzHOAEzfRu/POfzKs3xExdOor4fo=
+			Ghh+3SPjK0Z7+ENIswJ4caj20b5eIk1z3uO74KxW1Po=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NodleSDK.framework/Modules/NodleSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5tYWeyldMbDROXSR7pYAKOATxFE=
+			95W+b6/n2sMhrxyZi17wTTTEnog=
 			</data>
 			<key>hash2</key>
 			<data>
-			IK7L3LsZkkHI1IczTGoG/7xu+bXIqVGjY2d7VR2bBB0=
+			NBBOt73rvjheSEHj/ME+d6tGOf2YGC8jhLjxGbCv2oA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NodleSDK.framework/Modules/NodleSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wqTHfYWLzTOg4Fx/eUknsxFQeNc=
+			vr/pmGBJKnHdlNNwq6z9hF4y95E=
 			</data>
 			<key>hash2</key>
 			<data>
-			6DTxGg9o/aHbO3uDywIm4UxFV8o+98kOv+2LW1xPXzY=
+			WixIPcUnbi1B1M9uP7F+FBaG5qgHuuVO3iL+oEA1cUs=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NodleSDK.framework/Modules/NodleSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SFFOgckywE1qgi4W0IP0641uvXE=
+			Up5LHDMmzbcSalt58kKHSZc2YRE=
 			</data>
 			<key>hash2</key>
 			<data>
-			5gZng6K9sCAoqAk1zapOhTJfnCOsKvJwulfaG7CDBOc=
+			qNtqADu7KUPshkF9Ms5wvsJVks1VKlwzzDm8JQGIbTk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NodleSDK.framework/Modules/NodleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K3L72/Mxuw/1SThAvUfxvazJtUI=
+			39arMbvWrza449gxSdy4e+Yw+vQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			8CRpIBlSRsOhKcP098MHetix7vRoyueZvd+CAgkh/9I=
+			LKwgcqUuIS1gOliEyCgJ1whkeeh9g5R3kno9FNnAK90=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NodleSDK.framework/Modules/NodleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SFFOgckywE1qgi4W0IP0641uvXE=
+			Up5LHDMmzbcSalt58kKHSZc2YRE=
 			</data>
 			<key>hash2</key>
 			<data>
-			5gZng6K9sCAoqAk1zapOhTJfnCOsKvJwulfaG7CDBOc=
+			qNtqADu7KUPshkF9Ms5wvsJVks1VKlwzzDm8JQGIbTk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NodleSDK.framework/Modules/module.modulemap</key>
@@ -387,33 +387,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fvuNcZI5DUP0QjME1BVisZ0+i6A=
+			EQjSBRy4YCDKYhbeOXw5u63j378=
 			</data>
 			<key>hash2</key>
 			<data>
-			duD7KEvSSKehDf5HNrlbM4g8MTj6jWkwKN+sb/tfhOs=
+			ayx2C6eYTk897NWu9f8PstrIRQTI/s1yo5fqMHq6VAI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NodleSDK.framework/PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bUN7eS5VnfyRcqockfkswZ1tghs=
+			Po4EWPhXaIIzyrJMNjMmCnn97Vg=
 			</data>
 			<key>hash2</key>
 			<data>
-			JkDwD5KgjQvp+sin1uuE20XH8WZ03+jhbs+DhEXtC2U=
+			vwzkMV7s6XWrv0qrSnNRgJzTHGXVlldRzNmFDfW4RaE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NodleSDK.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			m2u2Pi2HUe98ASC+ZthUuYcTEyE=
+			uMq4vLsphoJW81MUGUSXiXyDRaI=
 			</data>
 			<key>hash2</key>
 			<data>
-			jFqX3a85qxZJiw4gFvrpAIVjetrCOkcMtzHgJajzOMI=
+			suTjlIhS/K9PkFBJapVxKwTEn4KwGveuio5iw2wmCJc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NodleSDK.framework/sdk_default_config.json</key>
