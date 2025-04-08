@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'NodleSDKWCB'
-  spec.version      = '0.0.23-night'
+  spec.version      = '0.0.24-night'
   spec.license      = 'Apache-2.0'
   spec.summary      = 'iOS library for the Nodle SDK with CoreLocation'
   spec.homepage     = 'https://www.nodle.com/'

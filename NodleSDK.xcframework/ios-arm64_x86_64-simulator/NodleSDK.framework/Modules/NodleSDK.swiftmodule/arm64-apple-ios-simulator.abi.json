@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "NodleSDK",
+    "printedName": "NodleSDK",
     "children": [
       {
         "kind": "Import",
@@ -708,7 +708,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -4371,6 +4387,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "NodleHeartbeatRecord",
             "printedName": "NodleHeartbeatRecord",
             "usr": "s:8NodleSDK0A15HeartbeatRecordP",
@@ -4458,7 +4488,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -4472,7 +4518,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -4622,6 +4684,20 @@
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "NodleEvent",
@@ -5412,6 +5488,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "NodleEvent",
             "printedName": "NodleEvent",
             "usr": "s:8NodleSDK0A5EventP",
@@ -5692,7 +5782,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -5752,6 +5858,22 @@
         "moduleName": "NodleSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -6579,6 +6701,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "NodleEvent",
             "printedName": "NodleEvent",
             "usr": "s:8NodleSDK0A5EventP",
@@ -6734,6 +6870,22 @@
         "moduleName": "NodleSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -8604,6 +8756,22 @@
         "moduleName": "NodleSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -8791,6 +8959,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -8992,6 +9174,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -9927,6 +10123,22 @@
         "moduleName": "NodleSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -10326,6 +10538,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -10452,6 +10678,22 @@
         "hasMissingDesignatedInitializers": true,
         "superclassNames": [
           "NodleSDK.NodleDispatcher"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -10665,6 +10907,20 @@
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "NodleEvent",
@@ -12424,6 +12680,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -12589,6 +12859,20 @@
             "printedName": "_DestructorSafeContainer",
             "usr": "s:s24_DestructorSafeContainerP",
             "mangledName": "$ss24_DestructorSafeContainerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -13302,6 +13586,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ReferenceConvertible",
             "printedName": "ReferenceConvertible",
             "children": [
@@ -13427,7 +13725,23 @@
         "moduleName": "Swift",
         "genericSig": "<τ_0_0.Element == τ_0_0.Iterator.Element, τ_0_0.Iterator : Swift.IteratorProtocol>",
         "sugared_genericSig": "<Self.Element == Self.Iterator.Element, Self.Iterator : Swift.IteratorProtocol>",
-        "isExternal": true
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
@@ -13557,7 +13871,7 @@
       "kind": "StringLiteral",
       "offset": 189,
       "length": 8,
-      "value": "\"0.0.31\""
+      "value": "\"0.0.34\""
     },
     {
       "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/ios\/nodlesdk-common\/NodleIOSContext.swift",
@@ -13593,300 +13907,6 @@
       "offset": 355,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1145,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1190,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1223,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1250,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1277,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1320,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1355,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1382,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1409,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1436,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1464,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1493,
-      "length": 2,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1522,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1551,
-      "length": 2,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1592,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1621,
-      "length": 2,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1660,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1700,
-      "length": 2,
-      "value": "17"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1740,
-      "length": 2,
-      "value": "18"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1769,
-      "length": 2,
-      "value": "19"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1798,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1145,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1190,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1223,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1250,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1277,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1320,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1355,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1382,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1409,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1436,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1464,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1493,
-      "length": 2,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1522,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1551,
-      "length": 2,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1592,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1621,
-      "length": 2,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1660,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1700,
-      "length": 2,
-      "value": "17"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1740,
-      "length": 2,
-      "value": "18"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1769,
-      "length": 2,
-      "value": "19"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1798,
-      "length": 2,
-      "value": "20"
     },
     {
       "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BundleV7Flags.swift",
@@ -14085,13 +14105,6 @@
       "value": "32"
     },
     {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/crypto\/Ed25519PrivateKeyParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 147,
-      "length": 27,
-      "value": "\"NodleSDK.Ed25519PrivateKeyParameters\""
-    },
-    {
       "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/eid\/Dtn.swift",
       "kind": "IntegerLiteral",
       "offset": 220,
@@ -14132,20 +14145,6 @@
       "offset": 315,
       "length": 3,
       "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/bpsec\/Ed25519BlockSignature.swift",
-      "kind": "StringLiteral",
-      "offset": 423,
-      "length": 24,
-      "value": "\"NodleSDK.Ed25519SecurityParameter\""
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/bpsec\/Ed25519BlockSignature.swift",
-      "kind": "StringLiteral",
-      "offset": 749,
-      "length": 21,
-      "value": "\"NodleSDK.Ed25519SecurityResult\""
     },
     {
       "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-common\/bleScanReport.pb.swift",
@@ -14421,6 +14420,76 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-dispatcher\/NodleDispatcher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4878,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-dispatcher\/NodleDispatcher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4886,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-dispatcher\/NodleDispatcher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4952,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-dispatcher\/NodleDispatcher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4960,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-dispatcher\/NodleDispatcher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4986,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-dispatcher\/NodleDispatcher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5036,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-dispatcher\/NodleDispatcher.swift",
+      "kind": "StringLiteral",
+      "offset": 5115,
+      "length": 37,
+      "value": "\"NodleSDK stopping - module \""
+    },
+    {
+      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-dispatcher\/NodleDispatcher.swift",
+      "kind": "StringLiteral",
+      "offset": 5151,
+      "length": 23,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-dispatcher\/NodleDispatcher.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5198,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-dispatcher\/NodleDispatcher.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5243,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/ios\/nodlesdk-storage\/impl\/TxInDbImpl.swift",
       "kind": "StringLiteral",
       "offset": 160,
@@ -14625,108 +14694,17 @@
     },
     {
       "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/utils\/Stream.swift",
-      "kind": "StringLiteral",
-      "offset": 131,
-      "length": 16,
-      "value": "\"NodleSDK.DualOutputStream\""
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/utils\/Stream.swift",
-      "kind": "StringLiteral",
-      "offset": 131,
-      "length": 16,
-      "value": "\"NodleSDK.DualOutputStream\""
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/utils\/Stream.swift",
-      "kind": "StringLiteral",
-      "offset": 131,
-      "length": 16,
-      "value": "\"NodleSDK.DualOutputStream\""
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/utils\/Stream.swift",
-      "kind": "StringLiteral",
-      "offset": 516,
-      "length": 24,
-      "value": "\"NodleSDK.CloseProtectOutputStream\""
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/utils\/Stream.swift",
-      "kind": "StringLiteral",
-      "offset": 516,
-      "length": 24,
-      "value": "\"NodleSDK.CloseProtectOutputStream\""
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/utils\/Stream.swift",
-      "kind": "StringLiteral",
-      "offset": 516,
-      "length": 24,
-      "value": "\"NodleSDK.CloseProtectOutputStream\""
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/utils\/Stream.swift",
       "kind": "IntegerLiteral",
       "offset": 1024,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/utils\/Stream.swift",
-      "kind": "StringLiteral",
-      "offset": 921,
-      "length": 22,
-      "value": "\"NodleSDK.LastBufferOutputStream\""
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/utils\/Stream.swift",
-      "kind": "StringLiteral",
-      "offset": 921,
-      "length": 22,
-      "value": "\"NodleSDK.LastBufferOutputStream\""
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/utils\/Stream.swift",
-      "kind": "StringLiteral",
-      "offset": 921,
-      "length": 22,
-      "value": "\"NodleSDK.LastBufferOutputStream\""
-    },
-    {
       "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/bpsec\/AbstractSecurityBlockData.swift",
       "kind": "IntegerLiteral",
       "offset": 201,
       "length": 1,
       "value": "1"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/bpsec\/AbstractSecurityBlockData.swift",
-      "kind": "IntegerLiteral",
-      "offset": 201,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/bpsec\/AbstractSecurityBlockData.swift",
-      "kind": "IntegerLiteral",
-      "offset": 201,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/bpsec\/AbstractSecurityBlockData.swift",
-      "kind": "IntegerLiteral",
-      "offset": 448,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/bpsec\/AbstractSecurityBlockData.swift",
-      "kind": "IntegerLiteral",
-      "offset": 448,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/bpsec\/AbstractSecurityBlockData.swift",
@@ -14748,118 +14726,6 @@
       "offset": 638,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BlockV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 733,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BlockV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 768,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BlockV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 808,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BlockV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 848,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BlockV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 871,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BlockV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 894,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BlockV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 924,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BlockV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 961,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BlockV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 733,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BlockV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 768,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BlockV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 808,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BlockV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 848,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BlockV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 871,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BlockV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 894,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BlockV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 924,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BlockV7Flags.swift",
-      "kind": "IntegerLiteral",
-      "offset": 961,
-      "length": 1,
-      "value": "7"
     },
     {
       "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/BlockV7Flags.swift",
@@ -14951,90 +14817,6 @@
       "offset": 392,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/CanonicalBlock.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1839,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/CanonicalBlock.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1870,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/CanonicalBlock.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1898,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/CanonicalBlock.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1925,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/CanonicalBlock.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1959,
-      "length": 2,
-      "value": "40"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/CanonicalBlock.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1999,
-      "length": 2,
-      "value": "41"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/CanonicalBlock.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1839,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/CanonicalBlock.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1870,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/CanonicalBlock.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1898,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/CanonicalBlock.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1925,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/CanonicalBlock.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1959,
-      "length": 2,
-      "value": "40"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/CanonicalBlock.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1999,
-      "length": 2,
-      "value": "41"
     },
     {
       "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/CanonicalBlock.swift",
@@ -15189,20 +14971,6 @@
       "offset": 3035,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/AdministrativeRecord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 174,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/AdministrativeRecord.swift",
-      "kind": "IntegerLiteral",
-      "offset": 174,
-      "length": 1,
-      "value": "1"
     },
     {
       "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/AdministrativeRecord.swift",
@@ -15443,13 +15211,6 @@
       "value": "32"
     },
     {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/crypto\/Ed25519PublicKeyParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 190,
-      "length": 26,
-      "value": "\"NodleSDK.Ed25519PublicKeyParameters\""
-    },
-    {
       "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/NodleEventType.swift",
       "kind": "IntegerLiteral",
       "offset": 206,
@@ -15490,97 +15251,6 @@
       "offset": 515,
       "length": 1,
       "value": "5"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/NodleEventType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 206,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/NodleEventType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 268,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/NodleEventType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 331,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/NodleEventType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 396,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/NodleEventType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 454,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/NodleEventType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 515,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/NodleEventType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 206,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/NodleEventType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 268,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/NodleEventType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 331,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/NodleEventType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 396,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/NodleEventType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 454,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/NodleEventType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 515,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/Nodle.swift",
-      "kind": "StringLiteral",
-      "offset": 142,
-      "length": 5,
-      "value": "\"NodleSDK.Nodle\""
     },
     {
       "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/ios\/nodlesdk-storage\/impl\/SdkMetric.swift",
@@ -16649,69 +16319,6 @@
     {
       "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/interfaces\/BundleDescriptor.swift",
       "kind": "StringLiteral",
-      "offset": 173,
-      "length": 18,
-      "value": "\"dispatch_pending\""
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/interfaces\/BundleDescriptor.swift",
-      "kind": "StringLiteral",
-      "offset": 218,
-      "length": 17,
-      "value": "\"forward_pending\""
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/interfaces\/BundleDescriptor.swift",
-      "kind": "StringLiteral",
-      "offset": 263,
-      "length": 17,
-      "value": "\"contraindicated\""
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/interfaces\/BundleDescriptor.swift",
-      "kind": "StringLiteral",
-      "offset": 306,
-      "length": 16,
-      "value": "\"local_endpoint\""
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/interfaces\/BundleDescriptor.swift",
-      "kind": "StringLiteral",
-      "offset": 373,
-      "length": 12,
-      "value": "\"origin_cla\""
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/interfaces\/BundleDescriptor.swift",
-      "kind": "StringLiteral",
-      "offset": 409,
-      "length": 14,
-      "value": "\"origin_local\""
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/interfaces\/BundleDescriptor.swift",
-      "kind": "StringLiteral",
-      "offset": 449,
-      "length": 16,
-      "value": "\"origin_storage\""
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/interfaces\/BundleDescriptor.swift",
-      "kind": "StringLiteral",
-      "offset": 487,
-      "length": 11,
-      "value": "\"delivered\""
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/interfaces\/BundleDescriptor.swift",
-      "kind": "StringLiteral",
-      "offset": 520,
-      "length": 11,
-      "value": "\"forwarded\""
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/interfaces\/BundleDescriptor.swift",
-      "kind": "StringLiteral",
       "offset": 373,
       "length": 12,
       "value": "\"origin_cla\""
@@ -16794,48 +16401,6 @@
       "value": "\"AdministrativeAgent \""
     },
     {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/crypto\/Ed25519.swift",
-      "kind": "StringLiteral",
-      "offset": 952,
-      "length": 19,
-      "value": "\"NodleSDK.Ed25519SignerStream\""
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/crypto\/Ed25519.swift",
-      "kind": "StringLiteral",
-      "offset": 952,
-      "length": 19,
-      "value": "\"NodleSDK.Ed25519SignerStream\""
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/crypto\/Ed25519.swift",
-      "kind": "StringLiteral",
-      "offset": 952,
-      "length": 19,
-      "value": "\"NodleSDK.Ed25519SignerStream\""
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/crypto\/Ed25519.swift",
-      "kind": "StringLiteral",
-      "offset": 1280,
-      "length": 24,
-      "value": "\"NodleSDK.Ed25519SignerCheckStream\""
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/crypto\/Ed25519.swift",
-      "kind": "StringLiteral",
-      "offset": 1280,
-      "length": 24,
-      "value": "\"NodleSDK.Ed25519SignerCheckStream\""
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/crypto\/Ed25519.swift",
-      "kind": "StringLiteral",
-      "offset": 1280,
-      "length": 24,
-      "value": "\"NodleSDK.Ed25519SignerCheckStream\""
-    },
-    {
       "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
       "kind": "IntegerLiteral",
       "offset": 164,
@@ -16862,230 +16427,6 @@
       "offset": 249,
       "length": 1,
       "value": "3"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
-      "kind": "IntegerLiteral",
-      "offset": 164,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
-      "kind": "IntegerLiteral",
-      "offset": 193,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
-      "kind": "IntegerLiteral",
-      "offset": 222,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
-      "kind": "IntegerLiteral",
-      "offset": 249,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
-      "kind": "IntegerLiteral",
-      "offset": 164,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
-      "kind": "IntegerLiteral",
-      "offset": 193,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
-      "kind": "IntegerLiteral",
-      "offset": 222,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
-      "kind": "IntegerLiteral",
-      "offset": 249,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
-      "kind": "IntegerLiteral",
-      "offset": 481,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
-      "kind": "IntegerLiteral",
-      "offset": 594,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
-      "kind": "IntegerLiteral",
-      "offset": 752,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
-      "kind": "IntegerLiteral",
-      "offset": 887,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1000,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1164,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1317,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1466,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1598,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1722,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1856,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1980,
-      "length": 2,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
-      "kind": "IntegerLiteral",
-      "offset": 481,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
-      "kind": "IntegerLiteral",
-      "offset": 594,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
-      "kind": "IntegerLiteral",
-      "offset": 752,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
-      "kind": "IntegerLiteral",
-      "offset": 887,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1000,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1164,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1317,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1466,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1598,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1722,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1856,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1980,
-      "length": 2,
-      "value": "11"
     },
     {
       "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/administrative\/StatusReport.swift",
@@ -18005,482 +17346,6 @@
       "value": "255"
     },
     {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 240,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 306,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 386,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 474,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 551,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 630,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 664,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 688,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 713,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 738,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 767,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 797,
-      "length": 2,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 820,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 843,
-      "length": 2,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 868,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 896,
-      "length": 2,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 917,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 942,
-      "length": 2,
-      "value": "17"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 964,
-      "length": 2,
-      "value": "18"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 987,
-      "length": 2,
-      "value": "19"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1010,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1032,
-      "length": 2,
-      "value": "21"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1059,
-      "length": 2,
-      "value": "22"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1095,
-      "length": 2,
-      "value": "23"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1127,
-      "length": 2,
-      "value": "24"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1152,
-      "length": 2,
-      "value": "25"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1173,
-      "length": 2,
-      "value": "26"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1240,
-      "length": 2,
-      "value": "27"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1310,
-      "length": 2,
-      "value": "28"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1370,
-      "length": 2,
-      "value": "29"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1423,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1451,
-      "length": 2,
-      "value": "31"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1475,
-      "length": 2,
-      "value": "32"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1503,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 240,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 306,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 386,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 474,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 551,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 630,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 664,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 688,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 713,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 738,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 767,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 797,
-      "length": 2,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 820,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 843,
-      "length": 2,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 868,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 896,
-      "length": 2,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 917,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 942,
-      "length": 2,
-      "value": "17"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 964,
-      "length": 2,
-      "value": "18"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 987,
-      "length": 2,
-      "value": "19"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1010,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1032,
-      "length": 2,
-      "value": "21"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1059,
-      "length": 2,
-      "value": "22"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1095,
-      "length": 2,
-      "value": "23"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1127,
-      "length": 2,
-      "value": "24"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1152,
-      "length": 2,
-      "value": "25"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1173,
-      "length": 2,
-      "value": "26"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1240,
-      "length": 2,
-      "value": "27"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1310,
-      "length": 2,
-      "value": "28"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1370,
-      "length": 2,
-      "value": "29"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1423,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1451,
-      "length": 2,
-      "value": "31"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1475,
-      "length": 2,
-      "value": "32"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/libs\/nodlesdk-api\/SdkMetricType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1503,
-      "length": 3,
-      "value": "255"
-    },
-    {
       "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/ios\/nodlesdk-storage\/impl\/UserKeyPairImpl.swift",
       "kind": "StringLiteral",
       "offset": 175,
@@ -18514,48 +17379,6 @@
       "offset": 296,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/Block.swift",
-      "kind": "IntegerLiteral",
-      "offset": 371,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/Block.swift",
-      "kind": "IntegerLiteral",
-      "offset": 390,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/Block.swift",
-      "kind": "IntegerLiteral",
-      "offset": 409,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/Block.swift",
-      "kind": "IntegerLiteral",
-      "offset": 371,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/Block.swift",
-      "kind": "IntegerLiteral",
-      "offset": 390,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/Block.swift",
-      "kind": "IntegerLiteral",
-      "offset": 409,
-      "length": 1,
-      "value": "2"
     },
     {
       "filePath": "\/Users\/nikiizvorski\/Documents\/NodleSdk-iOS\/NodleSDK\/dtn\/bpv7\/bpv7\/Block.swift",
